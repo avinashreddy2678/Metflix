@@ -1,0 +1,30 @@
+.Slider{
+    height: 270px;
+    width: 100%;
+   margin-top: 10px
+    
+}
+.Slider h1{
+    padding-top: 10px;
+}
+.container{
+    margin-left: 4px;
+    padding: 6px 0;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.container::-webkit-scrollbar{
+   display: none;
+}
+.container img{
+    width: 250px;
+    height: 180px;
+    padding: 2px 7px;
+    transition: all 0.5s;
+    border-radius: 3px;
+    object-fit: contain;
+}
+.container > img:hover{
+    transform: Scale(1.07);
+}

@@ -1,0 +1,45 @@
+body{
+
+}
+.mycontainer{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ flex-direction: column;
+}
+.searchBox{
+   
+    padding: 40px;
+   width: 45%;
+}
+.searchBox > input{
+   width: 400px;
+   height: 40px;
+   padding: 0 10px;
+   font-size: medium;
+   border-radius:5px ;
+   outline: none;
+   font-family: 'Arial Narrow Bold', sans-serif;
+}
+.search-button {
+    margin-left: 30px;
+    height: 40px;
+    width: 40px;
+    font-family: sans-serif;
+}
+.Lists{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 45%;
+}
+.buttons {
+    margin: 10px;
+    
+}
+.buttons > button{
+   width: 100px;
+   height: 45px;
+   background-color: rgb(50, 201, 231);
+   color: #111;
+}
